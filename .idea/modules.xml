@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/codeFlow.iml" filepath="$PROJECT_DIR$/.idea/codeFlow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeFlow/codeFlow.iml" filepath="$PROJECT_DIR$/codeFlow/codeFlow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/codeFlowMain.iml" filepath="$PROJECT_DIR$/.idea/codeFlowMain.iml" />
     </modules>
   </component>
 </project>

@@ -12,6 +12,7 @@ public class ContateNos {
     private String email;
     private String mensagem;
     private BigDecimal valorEstimado;
+    private String telefone;
 
 
 }
