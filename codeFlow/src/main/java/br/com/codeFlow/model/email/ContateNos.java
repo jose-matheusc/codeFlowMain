@@ -1,18 +1,19 @@
 package br.com.codeFlow.model.email;
+import lombok.*;
 
-import lombok.Getter;
-import lombok.Setter;
-
-import java.math.BigDecimal;
 
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@EqualsAndHashCode(of = "id")
 public class ContateNos {
 
+    private Long id;
+    private String nome;
     private String email;
+    private String numero;
     private String mensagem;
-    private BigDecimal valorEstimado;
-    private String telefone;
 
 
 }
