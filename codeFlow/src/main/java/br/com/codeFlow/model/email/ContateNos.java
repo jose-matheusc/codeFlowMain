@@ -9,9 +9,11 @@ import java.math.BigDecimal;
 @Setter
 public class ContateNos {
 
+    private String nome;
     private String email;
     private String mensagem;
-    private BigDecimal valorEstimado;
+    private String telefone;
+    //private BigDecimal valorEstimado; -> acho q n vai precisar
 
 
 }
