@@ -1,19 +1,25 @@
 package br.com.codeFlow.model.email;
 
-import lombok.Getter;
-import lombok.Setter;
+import jakarta.persistence.*;
+import lombok.*;
 
-import java.math.BigDecimal;
 
+@Table(name = "contate_nos")
+@Entity
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@EqualsAndHashCode(of = "id")
 public class ContateNos {
 
-    private String nome;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private String name;
     private String email;
-    private String mensagem;
-    private String telefone;
-    //private BigDecimal valorEstimado; -> acho q n vai precisar
+    private String message;
+    private String number;
 
 
 }
