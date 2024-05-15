@@ -1,4 +1,4 @@
-package br.com.codeFlow.model.usuario;
+package br.com.codeFlow.model;
 
 
 import lombok.Getter;
